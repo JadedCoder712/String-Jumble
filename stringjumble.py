@@ -34,11 +34,11 @@ length1 = len(a1)
 mylist1 = range(1, int(length1)+1)
 for a in mylist1:
     print(a1[-a], end="")
-   
+print(" ")
+
 
 
 #forward-backward:
-print(" ")
 a2 = sentence.split()
 length2 = len(a2)
 mylist2 = range(1, int(length2)+1)
