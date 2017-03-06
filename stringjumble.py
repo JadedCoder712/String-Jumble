@@ -26,8 +26,19 @@ forward-backward: handy find may you that tricks or techniques few a are There
 backward-forward: erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 #forward-backward
+
 sentence = input("Please enter a string of text (the bigger the better): ")
 a2 = sentence.split()
-b2 = a2.sort()
-c2 = " ".join(b2)
-print(c2)
+#commandforsorting
+#c2 = " ".join(b2)
+#print(c2)
+
+#commandforsorting:
+length = len(a2)
+mylist = range(1, int(length)+1)
+for a in mylist:
+    print(a2[-a], end=" ")
+
+
+
+
