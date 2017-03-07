@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Kyle Postans
+Credit: none
 
 Assignment:
 
