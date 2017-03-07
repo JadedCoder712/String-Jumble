@@ -24,7 +24,7 @@ You entered "There are a few techniques or tricks that you may find handy". Now 
 backward-backward: ydnah dnif yam uoy taht skcirt ro seuqinhcet wef a era erehT
 forward-backward: handy find may you that tricks or techniques few a are There
 backward-forward: erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
-
+"""
 sentence = input("Please enter a string of text (the bigger the better): ")
 
 #backward-backward:
@@ -42,8 +42,8 @@ length2 = len(a2)
 mylist2 = range(1, int(length2)+1)
 for b in mylist2:
     print(a2[-b], end=" ")
-"""
-#backward-forward
+    
+#backward-forward:
     
 sentence = input("Please enter a string of text (the bigger the better): ")
 
