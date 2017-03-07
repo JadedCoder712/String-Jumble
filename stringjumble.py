@@ -26,7 +26,7 @@ forward-backward: handy find may you that tricks or techniques few a are There
 backward-forward: erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 sentence = input("Please enter a string of text (the bigger the better): ")
-print('You entered "{0}". Now jumble it:'.format(sentence))
+print('You entered "{0}". Now jumble it: '.format(sentence))
 
 #backward-backward:
 
